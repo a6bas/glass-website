@@ -28,7 +28,8 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export default {
+// Assign the imported images to a variable
+const images = {
   bg,
   chef,
   G,
@@ -59,3 +60,6 @@ export default {
   quote,
   gericht,
 };
+
+// Export the variable
+export default images;
