@@ -2,7 +2,7 @@ import images from './images';
 
 const wines = [
   {
-    title: '1Omm Slider Shower',
+    title: '10mm Slider Shower',
     price: '$56',
     tags: 'AU | Bottle',
   },
@@ -35,7 +35,7 @@ const cocktails = [
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Reillings",
+    title: 'Reillings',
     price: '$16',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
@@ -49,7 +49,6 @@ const cocktails = [
     price: '$31',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
-  
 ];
 
 const awards = [
@@ -75,4 +74,8 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+// Assign the data object to a variable
+const data = { wines, cocktails, awards };
+
+// Export the named variable
+export default data;
