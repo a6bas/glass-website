@@ -1,0 +1,91 @@
+.app__requestquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.app__requestquote_container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Ensures it's centered */
+}
+
+.app__request_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.app__form_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__form_group label {
+    margin-bottom: 0.5rem;
+    color: #DCCA87;
+    font-weight: bold;
+}
+
+.app__form_group .required {
+    color:  #aaa;
+}
+
+.app__form_group input, 
+.app__form_group select, 
+.app__form_group textarea {
+    padding: 0.75rem;
+    border: 1px solid #DCCA87;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.app__form_group input::placeholder, 
+.app__form_group select::placeholder, 
+.app__form_group textarea::placeholder {
+    color: #aaa;
+}
+
+.app__form_group input:focus, 
+.app__form_group select:focus, 
+.app__form_group textarea:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.custom__button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #DCCA87;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.custom__button:hover {
+    background-color: #fff;
+    color: #DCCA87;
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+.thank-you-message {
+    background-color: #DCCA87;
+    color: #000;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  

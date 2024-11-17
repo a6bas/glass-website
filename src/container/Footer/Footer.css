@@ -1,0 +1,77 @@
+.app__review-form-wrapper {
+    background: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 1rem;
+  }
+  
+  .app__review-form {
+    background: var(--color-dark-grey);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .thank-you-message {
+    background: var(--color-black);
+    color: var(--color-golden);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .headtext__cormorant {
+    color: var(--color-golden);
+    margin-bottom: 1.5rem;
+  }
+  
+  .review__form .form__group {
+    margin-bottom: 1.5rem;
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .custom__button {
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom__button:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  
+  .review__footer {
+    background: var(--color-black);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .review__footer p {
+    color: var(--color-white);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  

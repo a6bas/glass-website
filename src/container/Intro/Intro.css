@@ -1,0 +1,76 @@
+.app__comments-reviews {
+  background: var(--color-black);
+  color: var(--color-white);
+  min-height: auto; /* Adjust to remove full-screen effect */
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__comments-reviews-content {
+  background: var(--color-dark-grey);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px; /* Center content and limit width */
+  text-align: center;
+}
+
+.average-rating {
+  margin: 2rem 0;
+}
+
+.stars span {
+  margin: 0 2px;
+}
+
+.comments-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--color-grey);
+  border-radius: 10px;
+}
+
+.comment {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-dark-grey);
+  padding-bottom: 1rem;
+}
+
+.toggle-reviews-button {
+  background-color: var(--color-golden);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.toggle-reviews-button:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.write-review-button {
+  background-color: var(--color-golden);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.write-review-button:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
