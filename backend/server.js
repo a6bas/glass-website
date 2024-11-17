@@ -1,3 +1,6 @@
+// server.js
+require('dotenv').config();  // Load environment variables from .env file
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -8,13 +11,14 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json()); // to parse JSON body
 
-// MongoDB connection string
-const uri = "mongodb+srv://aliabbas7213:kQk6YhAemBiqACpF@reviews-db.zvtu6.mongodb.net/?retryWrites=true&w=majority";
+// MongoDB connection string from environment variable
+const uri = process.env.MONGO_URI;  // Use the MONGO_URI from .env file
 
 // MongoDB connection
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Successfully connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
+
 
 // Define Review schema
 const reviewSchema = new mongoose.Schema({
